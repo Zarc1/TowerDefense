@@ -15,7 +15,7 @@ public class HealthBarRotation : MonoBehaviour {
 	}
 	void LateUpdate()
 	{
-		if (transform.rotation != Quaternion.Euler(54f, 0, 0))
-			transform.rotation = Quaternion.Euler(54f, 0, 0);
+		if (transform.rotation != Quaternion.Euler(54f, 0, 0))//if for some reason its not this value
+			transform.rotation = Quaternion.Euler(54f, 0, 0);//make it this value (facing the camera, as the hp bar exists in world space)
 	}
 }

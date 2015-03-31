@@ -3,39 +3,36 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 
-	public GameObject enemy1;
-	public float waittime = 6f;
-	Transform Target;
-	int counter = 0;
+	public GameObject enemy1;//our enemy prefab
+	public float waittime = 6f;//time between spawns
+	Transform Target;//target to walk to
 
 	bool canSpawn = true;
 	
 	// Use this for initialization
 	void Start () 
 	{
-		Target = GameObject.Find ("Target").transform;
+		Target = GameObject.Find ("Target").transform;//locate the target the hard way cause prefabs are dumb
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if (canSpawn == true)
+		if (canSpawn == true)//if we can
 		{
-			Spawn ();
-			canSpawn = false;
-			Invoke ("Wait", waittime);
+			Spawn ();//we do
+			canSpawn = false;//but thats tiring
+			Invoke ("Wait", waittime);//so we take a break
 		}
 	}
 	void Spawn()
 	{
-		GameObject enemy = Instantiate (enemy1, transform.position, enemy1.transform.rotation) as GameObject;
-		enemy.GetComponent<AI_Pather>().speed = 5;
-		enemy.GetComponent<AI_Pather> ().target = Target;
-		enemy.GetComponent<Enemy>().count = counter;
-		counter++;
+		GameObject enemy = Instantiate (enemy1, transform.position, enemy1.transform.rotation) as GameObject;//make a goon
+		enemy.GetComponent<AI_Pather>().speed = 5;//give him speed
+		enemy.GetComponent<AI_Pather> ().target = Target;//search for blood
 
 	}
-	void Wait()
+	void Wait()//nifty invokes because im not good with coroutines yet
 	{
 		canSpawn = true;
 	}
