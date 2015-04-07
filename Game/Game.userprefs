@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\TowerDefense\Assets\WaterShader.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WaterShader.shader">
     <Files>
-      <File FileName="..\..\..\TowerDefense\Assets\WaterShader.shader" Line="39" Column="10" />
+      <File FileName="Assets\WaterShader.shader" Line="40" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
