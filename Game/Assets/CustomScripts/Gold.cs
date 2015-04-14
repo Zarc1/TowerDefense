@@ -34,6 +34,7 @@ public class Gold : MonoBehaviour
 	public void LoseGold(int g)//subtract amount g from total gold and display new value
 	{
 		goldAmount -= g;
+		this.GetComponent<AudioSource>().Play ();
 		text.text = "Gold: " + goldAmount.ToString ();
 	}
 }

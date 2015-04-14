@@ -28,11 +28,19 @@ public class Enemy : MonoBehaviour
 		if (health == 0)//if enemy is dead
 		{
 			Handler(Value);//broadcast event
-			Destroy (this.gameObject);//he died
+			this.GetComponent<AudioSource>().Play ();
+			StartCoroutine ("Death");
+
 		}
 	}
 	public void TakeDamage(int d)//method subscribed to a tower dmg event
 	{
 		health -= d;//lose the appropriate amount of hp
+	}
+	IEnumerator Death()
+	{
+
+		yield return new WaitForSeconds (.5f);
+		Destroy (this.gameObject);//he died
 	}
 }

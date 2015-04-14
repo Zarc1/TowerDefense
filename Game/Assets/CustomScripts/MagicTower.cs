@@ -8,6 +8,7 @@ public class MagicTower : MonoBehaviour
 	bool CanShoot = true;//check if attack is on cooldown
 	int damage = 5;//damage of the turret attack
 	float CDR = 6f;//rate of attack cooldown
+	ParticleSystem p;
 
 	public delegate void TowerAttack(int dmg);//delegate of teh attack
 	public static event TowerAttack TA;//the event to subscribe to
@@ -15,7 +16,7 @@ public class MagicTower : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-
+		p = this.GetComponentInChildren<ParticleSystem>();
 	}
 	
 	// Update is called once per frame
@@ -25,6 +26,8 @@ public class MagicTower : MonoBehaviour
 		{
 			print ("attacked");
 			TA(damage);//call the attack event
+			p.Play ();
+			this.GetComponent<AudioSource>().Play ();
 			CanShoot = false;//set the tower on cooldown
 			Invoke ("CooldownTimer", CDR);//call the cooldown refresh after th appropriate time
 		}

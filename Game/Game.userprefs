@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WaterShader.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\Enemy.cs">
     <Files>
-      <File FileName="Assets\WaterShader.shader" Line="40" Column="35" />
+      <File FileName="Assets\CustomScripts\MagicTower.cs" Line="30" Column="45" />
+      <File FileName="Assets\CustomScripts\Gold.cs" Line="37" Column="44" />
+      <File FileName="Assets\CustomScripts\Enemy.cs" Line="31" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
