@@ -23,24 +23,22 @@ public class Enemy : MonoBehaviour
 	void Update () 
 	{
 		Sl.value = health;//change slider to reflect current hp
-
-
-		if (health == 0)//if enemy is dead
-		{
-			Handler(Value);//broadcast event
-			this.GetComponent<AudioSource>().Play ();
-			StartCoroutine ("Death");
-
-		}
 	}
 	public void TakeDamage(int d)//method subscribed to a tower dmg event
 	{
 		health -= d;//lose the appropriate amount of hp
+		if (health == 0)//if enemy is dead
+		{
+			Handler(Value);//broadcast event
+			this.GetComponent<AudioSource>().Play ();
+			this.GetComponentInChildren<Renderer>().enabled = false;
+			GetComponentInChildren<Canvas>().enabled = false;
+			StartCoroutine ("Death");
+		}
 	}
 	IEnumerator Death()
 	{
-
-		yield return new WaitForSeconds (.5f);
+		yield return new WaitForSeconds (.7f);
 		Destroy (this.gameObject);//he died
 	}
 }
