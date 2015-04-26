@@ -126,6 +126,7 @@
      <Compile Include="Assets\CustomScripts\EventListner.cs" />
      <Compile Include="Assets\CustomScripts\Gold.cs" />
      <Compile Include="Assets\CustomScripts\HealthBarRotation.cs" />
+     <Compile Include="Assets\CustomScripts\Load.cs" />
      <Compile Include="Assets\CustomScripts\MagicTower.cs" />
      <Compile Include="Assets\CustomScripts\Spawner.cs" />
      <Compile Include="Assets\CustomScripts\TurretSpawnSample.cs" />

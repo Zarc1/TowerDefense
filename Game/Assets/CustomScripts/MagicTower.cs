@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
 using System.Collections;
+using System.Collections.Generic;
 
 public class MagicTower : MonoBehaviour 
 {
@@ -10,8 +11,7 @@ public class MagicTower : MonoBehaviour
 	float CDR = 6f;//rate of attack cooldown
 	ParticleSystem p;
 
-	public delegate void TowerAttack(int dmg);//delegate of teh attack
-	public static event TowerAttack TA;//the event to subscribe to
+	public List<GameObject> enemies = new List<GameObject>();
 
 	// Use this for initialization
 	void Start () 
@@ -25,7 +25,7 @@ public class MagicTower : MonoBehaviour
 		if ((ColliderNumber > 0) && (CanShoot == true))//if there are enemies and attack isnt on CD
 		{
 			print ("attacked");
-			TA(damage);//call the attack event
+			Shoot();//call the attack event
 			p.Play ();
 			this.GetComponent<AudioSource>().Play ();
 			CanShoot = false;//set the tower on cooldown
@@ -37,7 +37,8 @@ public class MagicTower : MonoBehaviour
 		if (c.gameObject.tag == "Enemy")//if an enemy enters the collider
 		{
 			ColliderNumber ++;//raise the count
-			TA += c.gameObject.GetComponent<Enemy>().TakeDamage;//subscribe the enemy to the event
+			if(!enemies.Contains (c.gameObject))
+				enemies.Add (c.gameObject);
 		}
 	}
 	void OnTriggerExit (Collider c)
@@ -45,11 +46,23 @@ public class MagicTower : MonoBehaviour
 		if (c.gameObject.tag == "Enemy")//if an enemy leaves the collider
 		{
 			ColliderNumber --;//lower the count
-			TA -= c.gameObject.GetComponent<Enemy>().TakeDamage;//unsubscribe the enemy to the event
+			enemies.Remove (c.gameObject);
 		}
 	}
 	void CooldownTimer()
 	{
 		CanShoot = true;
+	}
+	void Shoot()
+	{
+		foreach(GameObject g in enemies)
+		{
+			if(g)
+			{
+				g.SendMessage ("TakeDamage", damage);
+				if(g.GetComponent<Enemy>().health == 0)
+					enemies.Remove (g);
+			}
+		}
 	}
 }

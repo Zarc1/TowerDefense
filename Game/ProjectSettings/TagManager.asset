@@ -7,6 +7,8 @@ TagManager:
   - SpawnSpot1
   - Enemy
   - Fire
+  - MagicT
+  - ArrowT
   layers:
   - Default
   - TransparentFX
