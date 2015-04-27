@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class MagicTower : MonoBehaviour 
 {
-	int ColliderNumber = 0;//check if collider is populated
+	public int ColliderNumber = 0;//check if collider is populated
 	bool CanShoot = true;//check if attack is on cooldown
 	int damage = 5;//damage of the turret attack
 	float CDR = 6f;//rate of attack cooldown
@@ -22,6 +22,20 @@ public class MagicTower : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		ColliderNumber = enemies.Count;
+		foreach(GameObject g in enemies)
+		{
+			if(g)
+			{
+				if(g.GetComponent<Enemy>().health == 0)
+				{
+					enemies.Remove (g);
+					ColliderNumber--;
+				}
+			}
+		}
+
+
 		if ((ColliderNumber > 0) && (CanShoot == true))//if there are enemies and attack isnt on CD
 		{
 			print ("attacked");
@@ -36,7 +50,7 @@ public class MagicTower : MonoBehaviour
 	{
 		if (c.gameObject.tag == "Enemy")//if an enemy enters the collider
 		{
-			ColliderNumber ++;//raise the count
+			//ColliderNumber ++;//raise the count
 			if(!enemies.Contains (c.gameObject))
 				enemies.Add (c.gameObject);
 		}
@@ -45,13 +59,14 @@ public class MagicTower : MonoBehaviour
 	{
 		if (c.gameObject.tag == "Enemy")//if an enemy leaves the collider
 		{
-			ColliderNumber --;//lower the count
+			//ColliderNumber --;//lower the count
 			enemies.Remove (c.gameObject);
 		}
 	}
 	void CooldownTimer()
 	{
 		CanShoot = true;
+
 	}
 	void Shoot()
 	{
@@ -60,8 +75,6 @@ public class MagicTower : MonoBehaviour
 			if(g)
 			{
 				g.SendMessage ("TakeDamage", damage);
-				if(g.GetComponent<Enemy>().health == 0)
-					enemies.Remove (g);
 			}
 		}
 	}

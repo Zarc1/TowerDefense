@@ -6,7 +6,8 @@ public class AI_Pather : MonoBehaviour
 {
 	public Transform target;//where we want our enemy to go;
 	Path path;//reference to our path
-	int currentWaypoint;//our position amongst total waypoint on drawn path
+	public int currentWaypoint;//our position amongst total waypoint on drawn path
+	public Transform arrowLead;
 
 	public int speed = 10;//speed to walk
 
@@ -37,18 +38,23 @@ public class AI_Pather : MonoBehaviour
 		if (currentWaypoint >= path.vectorPath.Count)//end of the path
 			return;
 
+		//arrowLead.position = new Vector3 (path.vectorPath [currentWaypoint + 2].x, transform.position.y, path.vectorPath [currentWaypoint + 2].z);
+
 		Vector3 direction = (path.vectorPath [currentWaypoint] - transform.position).normalized * speed;//direction to move our enemy based on waypoint position, normalized to alwasy return as 1
 		if (GetComponent<CharacterController>() != null)
-			cc.SimpleMove (direction);//move in that direction
+			//cc.SimpleMove (direction);//move in that direction
 
-		if (Vector3.Distance(transform.position, path.vectorPath[currentWaypoint]) <2f )//check to see how close we are to the next waypoint
+		if (Vector3.Distance(transform.position, path.vectorPath[currentWaypoint]) <1.3f )//check to see how close we are to the next waypoint
 		{
 			currentWaypoint++;//incremement the waypoint count
 		}
 		if (currentWaypoint < path.vectorPath.Count)//if we arent at the player yet
 		{
 			Vector3 LookVector = new Vector3 (path.vectorPath [currentWaypoint].x, transform.position.y, path.vectorPath [currentWaypoint].z);//set a vector to be the next waypoint at the enemies same y level
-			transform.LookAt (LookVector);//have enemy look at that vector
+			Quaternion targetRotation = Quaternion.LookRotation(LookVector - transform.position);
+			this.transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 5 * Time.deltaTime);
+			//transform.LookAt (LookVector);//have enemy look at that vector
+
 		}
 	}
 }

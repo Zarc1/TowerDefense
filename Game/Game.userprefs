@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\TurretSpawnSample.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\ArrowTower.cs">
     <Files>
-      <File FileName="Assets\CustomScripts\MagicTower.cs" Line="64" Column="6" />
-      <File FileName="Assets\CustomScripts\Enemy.cs" Line="31" Column="4" />
-      <File FileName="Assets\CustomScripts\TurretSpawnSample.cs" Line="52" Column="55" />
+      <File FileName="Assets\CustomScripts\ArrowTower.cs" Line="88" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

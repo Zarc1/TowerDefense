@@ -119,6 +119,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\CustomScripts\AI_Pather.cs" />
+     <Compile Include="Assets\CustomScripts\Arrow.cs" />
      <Compile Include="Assets\CustomScripts\ArrowTower.cs" />
      <Compile Include="Assets\CustomScripts\Delegates.cs" />
      <Compile Include="Assets\CustomScripts\Enemy.cs" />

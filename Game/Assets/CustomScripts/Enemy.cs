@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
 	public void TakeDamage(int d)//method subscribed to a tower dmg event
 	{
 		health -= d;//lose the appropriate amount of hp
-		if (health == 0)//if enemy is dead
+		if (health <= 0)//if enemy is dead
 		{
 			Handler(Value);//broadcast event
 			this.GetComponent<AudioSource>().Play ();

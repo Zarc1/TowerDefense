@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: fb72103d4ac3b744b9bbde5a32187263
+timeCreated: 1430158501
+licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -302,7 +304,7 @@ ModelImporter:
       transformModified: 1
     - name: neck
       position: {x: -.341717899, y: .000136158647, z: .17056334}
-      rotation: {x: 7.82946372e-05, y: .182340086, z: -.000421573845, w: .983235419}
+      rotation: {x: 7.82946445e-05, y: .1823401, z: -.000421573874, w: .983235478}
       scale: {x: .999999821, y: .99999994, z: 1}
       transformModified: 1
     - name: head
@@ -372,7 +374,7 @@ ModelImporter:
       transformModified: 1
     - name: heel_L
       position: {x: -.331186235, y: 2.99401215e-08, z: 8.01968991e-10}
-      rotation: {x: .947263181, y: -.0361403637, z: -.316860229, w: .0313994437}
+      rotation: {x: .947263241, y: -.0361403674, z: -.316860259, w: .0313994475}
       scale: {x: .999999881, y: .99999994, z: 1}
       transformModified: 1
     - name: heel_02_L
@@ -407,12 +409,12 @@ ModelImporter:
       transformModified: 1
     - name: heel_02_R
       position: {x: -.10447333, y: -.00854493398, z: .151564866}
-      rotation: {x: .622692645, y: .704783201, z: .263929695, w: .214185938}
+      rotation: {x: .622692704, y: .704783261, z: .263929725, w: .214185953}
       scale: {x: 1.00000024, y: 1, z: .99999994}
       transformModified: 1
     - name: Troll
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     armTwist: .5
