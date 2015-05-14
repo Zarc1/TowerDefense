@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-	public int health; //hp
+	public float health; //hp
 	public int Value; //gold worth when killed
 	Slider Sl; // UI slider hp bar
 
@@ -12,9 +12,12 @@ public class Enemy : MonoBehaviour
 	public delegate void DeathGold(int amount);
 	public static event DeathGold Handler;
 
+	GameObject GM;
+
 	// Use this for initialization
 	void Start () 
 	{
+		GM = GameObject.Find ("GameManager");
 		Sl = this.GetComponentInChildren<Slider>();//reference the slider
 		Sl.maxValue = health;//set max value to starting enemy hp
 	}
@@ -24,7 +27,7 @@ public class Enemy : MonoBehaviour
 	{
 		Sl.value = health;//change slider to reflect current hp
 	}
-	public void TakeDamage(int d)//method subscribed to a tower dmg event
+	public void TakeDamage(float d)//method subscribed to a tower dmg event
 	{
 		health -= d;//lose the appropriate amount of hp
 		if (health <= 0)//if enemy is dead
@@ -40,5 +43,6 @@ public class Enemy : MonoBehaviour
 	{
 		yield return new WaitForSeconds (.7f);
 		Destroy (this.gameObject);//he died
+		GM.GetComponent<RoundManager>().EnemyDeath ();
 	}
 }

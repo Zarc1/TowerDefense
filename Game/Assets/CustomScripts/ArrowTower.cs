@@ -6,8 +6,10 @@ public class ArrowTower : MonoBehaviour
 {
 	public int ColliderNumber = 0;//check if collider is populated
 	public GameObject arrow;
+	public int level = 1;
 	bool CanShoot = true;//check if attack is on cooldown
-	int damage = 1;//damage of the turret attack
+	public float damage = 1;//damage of the turret attack
+	public float CoolDown = 1.5f;
 	GameObject target;
 	
 	public List<GameObject> enemies = new List<GameObject>();
@@ -21,6 +23,7 @@ public class ArrowTower : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		enemies.Sort (SortMethod);
 		ColliderNumber = enemies.Count;
 		foreach(GameObject g in enemies)
 		{
@@ -35,6 +38,7 @@ public class ArrowTower : MonoBehaviour
 		}
 		if ((ColliderNumber > 0) && (CanShoot == true))//if there are enemies and attack isnt on CD
 		{
+			enemies.Sort (SortMethod);
 			Shoot();//call the attack event
 			SpawnArrow ();
 			this.GetComponent<AudioSource>().Play ();
@@ -56,31 +60,31 @@ public class ArrowTower : MonoBehaviour
 	{
 		if (c.gameObject.tag == "Enemy")//if an enemy leaves the collider
 		{
-			enemies.Sort (SortMethod);
+			//enemies.Sort (SortMethod);
 			//ColliderNumber --;//lower the count
 			enemies.Remove (c.gameObject);
 		}
 	}
 	void Shoot()
 	{
-		enemies.Sort (SortMethod);
 		target = enemies[0];
 		target.SendMessage ("TakeDamage", damage);
 	}
 	private int SortMethod(GameObject A, GameObject B)
 	{
-		if (!A && !B) return 0;
-		else if (!A) return -1;
-		else if (!B) return 1;
-		else if (A.GetComponent<AI_Pather>().currentWaypoint > B.GetComponent<AI_Pather>().currentWaypoint) return 1;
-		else return -1;
+		if (A.GetComponent<AI_Pather>().currentWaypoint < B.GetComponent<AI_Pather>().currentWaypoint) 
+			return 1;
+		else if (A.GetComponent<AI_Pather>().currentWaypoint > B.GetComponent<AI_Pather>().currentWaypoint) 
+			return -1;
+		else
+			return 0;
 	}
 
 
 
 	IEnumerator CD()
 	{
-		yield return new WaitForSeconds(1.5f);
+		yield return new WaitForSeconds(CoolDown);
 		CanShoot = true;
 	}
 	void SpawnArrow()

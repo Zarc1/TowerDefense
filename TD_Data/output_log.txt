@@ -1,0 +1,1000 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6900M Series (ID=0x6720)
+    Vendor:   ATI
+    VRAM:     2035 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Phil\Desktop\TD_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.308 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Phil\Desktop\TD_Data\Managed\System.dll (this message is harmless)
+Shader 'Nature/Terrain/Specular': fallback shader 'Nature/Terrain/Diffuse' not found
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ccc -> priority: 1 
+  Thread -> id: 1f84 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 35.990635 ms
+Scanning - Process took 52 ms to complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 3.858438 ms (FindLiveObjects: 0.108228 ms CreateObjectMapping: 0.290164 ms MarkObjects: 1.604300 ms  DeleteObjects: 1.853879 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2174 -> priority: 1 
+  Thread -> id: 1050 -> priority: 1 
+Path Completed : Computation Time 18.00 ms Searched Nodes 471 Path Length 179
+Path Number 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 11
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 12
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 13
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 14
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 15
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 17
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 18
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 19
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 21
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 22
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 23
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 24
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 26
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 27
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 28
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 29
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 31
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 32
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 33
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 34
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 35
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 36
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 471 Path Length 179
+Path Number 37
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 38
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 39
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 40
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 41
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 42
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 43
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at MagicTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 44
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 45
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 46
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 47
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 48
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 49
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at MagicTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at MagicTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at MagicTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Round].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at RoundManager.EndRound () [0x00000] in <filename unknown>:0 
+  at RoundManager.EnemyDeath () [0x00000] in <filename unknown>:0 
+  at Enemy+<Death>c__Iterator11.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 51
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 52
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 53
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 54
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 55
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 56
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 57
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 58
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 59
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 60
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 61
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 62
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 63
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 64
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 65
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 66
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 67
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 68
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
+  at ArrowTower.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 69
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 70
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 71
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 72
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 73
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 471 Path Length 179
+Path Number 74
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 471 Path Length 179
+Path Number 75
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+attacked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Round].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at RoundManager.EndRound () [0x00000] in <filename unknown>:0 
+  at RoundManager.EnemyDeath () [0x00000] in <filename unknown>:0 
+  at Enemy+<Death>c__Iterator11.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

@@ -7,15 +7,18 @@ public class MagicTower : MonoBehaviour
 {
 	public int ColliderNumber = 0;//check if collider is populated
 	bool CanShoot = true;//check if attack is on cooldown
-	int damage = 5;//damage of the turret attack
-	float CDR = 6f;//rate of attack cooldown
+	public int level = 1;
+	public float damage = 5f;//damage of the turret attack
+	public float CDR = 6f;//rate of attack cooldown
 	ParticleSystem p;
+	GameObject GM;
 
 	public List<GameObject> enemies = new List<GameObject>();
 
 	// Use this for initialization
 	void Start () 
 	{
+		GM = GameObject.Find ("GameManager");
 		p = this.GetComponentInChildren<ParticleSystem>();
 	}
 	
@@ -34,6 +37,9 @@ public class MagicTower : MonoBehaviour
 				}
 			}
 		}
+		if(GM.GetComponent<RoundManager>().enemiesLeft == 0)
+			ColliderNumber = 0;
+
 
 
 		if ((ColliderNumber > 0) && (CanShoot == true))//if there are enemies and attack isnt on CD

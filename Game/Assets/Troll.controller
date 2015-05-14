@@ -29,7 +29,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: HumanoidRun
-  m_Speed: .5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -46,7 +46,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: HumanoidWalk
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -69,7 +69,7 @@ AnimatorStateMachine:
     m_Position: {x: 48, y: 288, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110247122}
-    m_Position: {x: 302, y: 218, z: 0}
+    m_Position: {x: 300, y: 204, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:

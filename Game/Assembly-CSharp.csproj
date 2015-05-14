@@ -121,6 +121,7 @@
      <Compile Include="Assets\CustomScripts\AI_Pather.cs" />
      <Compile Include="Assets\CustomScripts\Arrow.cs" />
      <Compile Include="Assets\CustomScripts\ArrowTower.cs" />
+     <Compile Include="Assets\CustomScripts\Audio.cs" />
      <Compile Include="Assets\CustomScripts\Delegates.cs" />
      <Compile Include="Assets\CustomScripts\Enemy.cs" />
      <Compile Include="Assets\CustomScripts\EnemyAI.cs" />
@@ -129,8 +130,12 @@
      <Compile Include="Assets\CustomScripts\HealthBarRotation.cs" />
      <Compile Include="Assets\CustomScripts\Load.cs" />
      <Compile Include="Assets\CustomScripts\MagicTower.cs" />
+     <Compile Include="Assets\CustomScripts\NexusHP.cs" />
+     <Compile Include="Assets\CustomScripts\Round.cs" />
+     <Compile Include="Assets\CustomScripts\RoundManager.cs" />
      <Compile Include="Assets\CustomScripts\Spawner.cs" />
      <Compile Include="Assets\CustomScripts\TurretSpawnSample.cs" />
+     <Compile Include="Assets\CustomScripts\TurretUpgrade.cs" />
      <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />

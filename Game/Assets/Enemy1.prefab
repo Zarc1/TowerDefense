@@ -585,7 +585,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110594}
   m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
-  m_LocalPosition: {x: -.525606692, y: 2.83999991, z: -4.61319399}
+  m_LocalPosition: {x: -6.11111546, y: -1.43848944, z: -13.6371098}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 487528}
@@ -1002,6 +1002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  currentWaypoint: 0
+  arrowLead: {fileID: 0}
   speed: 5
 --- !u!114 &11415810
 MonoBehaviour:
@@ -1175,7 +1177,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 100
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
